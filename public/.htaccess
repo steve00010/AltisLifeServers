@@ -1,0 +1,9 @@
+RewriteEngine on
+RewriteCond $1 !^(index\.php|assets|robots\.txt)
+RewriteRule ^(.*)$ /index.php/$1 [L]
+
+<IfModule mod_deflate.c>
+<FilesMatch "\.(html|txt|css|js|php|pl)$">
+SetOutputFilter DEFLATE
+</FilesMatch>
+</IfModule>

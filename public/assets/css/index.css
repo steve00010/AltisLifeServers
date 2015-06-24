@@ -1,0 +1,29 @@
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+.jumbotron {
+    background-image: url('../img/bg1.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+	color:#ecf0f1;
+}
+.lowerinfo {
+font-size:10px;
+}
+.online { 
+color :#27ae60;
+
+}
+.offline {
+color:#c0392b;
+}
+span.glyphicon {
+    font-size: 1.35em;
+}
+span.glyphicon-thumbs-up {
+    color:#27ae60;
+}
+span.glyphicon-thumbs-down {
+    color:#c0392b;
+}
